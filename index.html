@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Interactive Web Pages 🚀</h1>
+    <button id="mode-toggle">Toggle Dark/Light Mode</button>
+  </header>
+
+  <section id="counter-section">
+    <h2>Counter Game 🎮</h2>
+    <button id="increment-btn">Click Me!</button>
+    <p>Count: <span id="counter">0</span></p>
+  </section>
+
+  <section id="faq-section">
+    <h2>FAQ Section ❓</h2>
+    <div class="faq-item">
+      <button class="faq-question">What is JavaScript?</button>
+      <p class="faq-answer">JavaScript is a programming language used for web interactivity.</p>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Why use event listeners?</button>
+      <p class="faq-answer">They allow you to respond to user actions dynamically.</p>
+    </div>
+  </section>
+
+  <section id="form-section">
+    <h2>Sign Up Form 📝</h2>
+    <form id="signup-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+      <span class="error" id="name-error"></span>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email">
+      <span class="error" id="email-error"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <span class="error" id="password-error"></span>
+
+      <button type="submit">Submit</button>
+      <p id="form-success" class="success"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
